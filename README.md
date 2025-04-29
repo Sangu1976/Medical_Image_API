@@ -26,18 +26,15 @@ This is a simple RESTful API built using **FastAPI** that simulates a basic medi
 ```bash
 pip install fastapi uvicorn
 
-Run the server:
+## Run the Server
 
-bash
-Copy
-Edit
 uvicorn main:app --reload
-Open your browser and navigate to:
+
+## Open your browser and navigate to:
 
 API Home: http://127.0.0.1:8000
 
 API Documentation (Swagger UI): http://127.0.0.1:8000/docs
-
 
 Example Usage
 POST /images/ — Add a new medical image.
